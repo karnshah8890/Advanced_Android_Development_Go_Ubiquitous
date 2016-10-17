@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Watch Face</string>
+    <string name="message">Watch face tapped</string>
+    <string name="my_analog_name">My Analog</string>
+    <string name="am_string" translatable="false">AM</string>
+    <string name="pm_string" translatable="false">PM</string>
+
+    <!-- This string path is used for DataItems using the DataLayer API between mobile and wearable -->
+    <string name="data_path" translatable="false">/weather</string>
+    <string name="high_key" translatable="false">highTemp</string>
+    <string name="low_key" translatable="false">lowTemp</string>
+    <string name="asset_key" translatable="false">assetDataMap</string>
+
+</resources>
