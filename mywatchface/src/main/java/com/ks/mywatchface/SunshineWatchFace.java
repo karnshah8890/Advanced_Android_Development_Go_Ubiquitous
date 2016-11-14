@@ -398,7 +398,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
 
 
             float weather_X = mXOffset;
-            float weather_Y = mYOffset + mDateTextPaint.measureText(amPmString);
+            float weather_Y = Date_Y + mDateTextPaint.getTextSize();
 
             if(mIconBitmap != null) {
                 Rect rect = new Rect(
